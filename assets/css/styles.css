@@ -708,6 +708,7 @@ img{
 .footer_copy{
     font-size:1rem;
     color: var(--first-color-lighter);
+    text-align: center;
 }
 
 /*==================== MEDIA QUERIES ====================*/
