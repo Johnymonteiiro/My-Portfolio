@@ -649,12 +649,13 @@ img{
     padding: 3rem 0;
     border-bottom: 5px solid var(--first-color-lighter);
     margin-bottom: 2px;
-    padding-left: 5rem;
+    width: 100%;
 }
 .footer_data{
     width: 100%;
     height: 100%;
     margin-bottom: var(--mb-5);
+    padding-left:35%;
 }
 .footer_home > a{
     display: block;
@@ -724,6 +725,9 @@ img{
         justify-self: center;
         width:100%;
     }
+    .footer_data{
+        padding-left:38%;
+       }
 }
 @media screen and (min-width :768px){
     .body{
@@ -839,6 +843,9 @@ img{
     padding: .9rem;
     text-align: center;
    }
+   .footer_data{
+    padding-left:7%;
+   }
 }
 
 @media screen and (min-width :1024px){
@@ -872,6 +879,9 @@ img{
     }
     .home_name{
         font-size: 5rem;
+    }
+    .footer_data{
+        padding-left:12%;
     }
 }
 /*==================== SKILLS ====================*/
